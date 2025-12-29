@@ -10,8 +10,7 @@ An educational game that teaches **calculus, algebra, and probability** through 
 
 ## 🎬 Demo
 
-<!-- Add your live demo link here after deployment -->
-<!-- 🔗 **[Play Live Demo](https://your-netlify-url.netlify.app)** -->
+🔗 **[Play Live Demo](https://tubular-sunburst-5b9ec2.netlify.app/)**
 
 ### Classic Mode
 ![Classic Mode](public/images/spider%20web.jpg)
