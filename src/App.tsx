@@ -90,6 +90,19 @@ export default function App() {
           >
             📊 Classic Mode
           </button>
+          <button
+            onClick={handleAudioToggle}
+            className="btn"
+            style={{
+              background: audioEnabled 
+                ? 'linear-gradient(135deg, #22c55e, #16a34a)' 
+                : 'linear-gradient(135deg, #6b7280, #4b5563)',
+              minWidth: '50px'
+            }}
+            title={audioEnabled ? 'Mute Audio' : 'Unmute Audio'}
+          >
+            {audioEnabled ? '🔊' : '🔇'}
+          </button>
         </div>
         
         {/* Adventure Mode Selector - Integrated Navbar */}

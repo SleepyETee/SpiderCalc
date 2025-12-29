@@ -1,28 +1,24 @@
 {
   "name": "spidercalc",
-  "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "An educational game that teaches calculus, algebra, and probability through interactive Halloween-themed gameplay",
+  "keywords": ["education", "calculus", "math", "game", "react", "phaser", "typescript"],
+  "author": "Long Nguyen",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "dev:story": "VITE_DEFAULT_MODE=adventure VITE_DEFAULT_ADVENTURE_MODE=story vite",
     "typecheck": "tsc --noEmit",
-    "build": "tsc -b && vite build && node scripts/copy-assets.js",
+    "build": "tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-spring/web": "^10.0.3",
-    "@react-three/cannon": "^6.6.0",
-    "@react-three/drei": "^10.7.6",
-    "@react-three/fiber": "^9.4.0",
-    "@types/three": "^0.180.0",
     "gsap": "^3.13.0",
-    "lottie-web": "^5.13.0",
     "matter-js": "^0.20.0",
     "phaser": "^3.80.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.180.0",
     "zustand": "^4.5.2"
   },
   "devDependencies": {
